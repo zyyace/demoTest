@@ -2,6 +2,8 @@ package com.demotest;
 
 import android.app.Application;
 
+import com.demotest.extend.packager.AMapViewPackage;
+import com.demotest.extend.packager.TestViewPackage;
 import com.facebook.react.ReactApplication;
 import com.RNFetchBlob.RNFetchBlobPackage;
 import fr.greweb.reactnativeviewshot.RNViewShotPackage;
@@ -40,7 +42,9 @@ public class MainApplication extends Application implements ReactApplication {
             new RNLanguagesPackage(),
             new PickerPackage(),
             new RNFSPackage(),
-            new FastImageViewPackage()
+            new FastImageViewPackage(),
+              new AMapViewPackage(),
+              new TestViewPackage()
       );
     }
 

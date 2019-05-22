@@ -5,7 +5,7 @@ export default class Index extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>map</Text>
+        <Text>map1</Text>
       </View>
     );
   }

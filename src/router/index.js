@@ -1,12 +1,14 @@
 import { StackNavigator } from 'react-navigation'
 
 import Index from '../index'
-import MapTest from '../views/map/index'
+import ViewTest from '../views/viewTest/myViewTest'
+import MapTest from '../views/map/mapView'
 
 const ModalStack = StackNavigator(
   {
     Index: { screen: Index },
     MapTest: { screen: MapTest },
+    ViewTest: { screen: ViewTest },
   },
   {
     navigationOptions: {

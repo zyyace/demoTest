@@ -29,6 +29,7 @@ export default class Index extends Component {
       <View style={styles.container}>
         <Text style={styles.instructions}>page test 3</Text>
         <Text onPress={() => { navigation.navigate('MapTest') }}>跳转到地图</Text>
+        <Text onPress={() => { navigation.navigate('ViewTest') }}>ViewTest</Text>
         {/* <Text onPress={() => { this.openImagePicker()}}>图片选择</Text>
         <Text onPress={() => { navigation.navigate('TimeLineTest')}}>时间轴</Text> */}
       </View>
